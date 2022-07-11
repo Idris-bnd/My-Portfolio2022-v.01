@@ -6,14 +6,121 @@
 }
 
 html,body{
-    background-color: #e6d1b6;
-    /* overflow: hidden; */
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    overflow-y: hidden;
+
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.allAppContainer{
+    width: 100vw;
+}
+
+.darkTheme{
+    --main-background-color : var(--dark-background-color);
+    --main-color : var(--dark-color);
+    --main-title-color : var(--dark-title-basic-color);
+    --main-transition-title-color: var(--dark-transition-title-color);
+
 }
 
 /* WINDOW */
 
+/* ----------------------------------- */
+body{
+/* LIGHT THEME */
+    --light-background-color : #e6d1b6;
+    --light-color : #9f7866;
+
+    --light-title-basic-color:#ffffff7d;
+    --light-transition-title-color : #9f7866;
+
+/* LIGHT THEME */
+
+/* --- */
+
+/* DARK THEME */
+    --dark-background-color : #1a1a27;
+    --dark-color : #867155;
+
+    --dark-title-basic-color:#6b5043;
+    --dark-transition-title-color : #dadada;
+/* DARK THEME */
+
+/* --- */
+
+/* VARIABLES COLOR */
+    --main-background-color : var(--light-background-color);
+    --main-color : var(--light-color);
+    --main-title-color : var(--light-title-basic-color);
+    --main-transition-title-color: var(--light-transition-title-color);
+/* VARIABLES COLOR */
+}
+/* ----------------------------------- */
+
+/* DARK THEME BUTTON */
+.darkThemeBox{
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    margin-top: 2vh;
+    margin-right: 3vw;
+
+    z-index: 100;
+}
+
+.darkThemeBox--p{
+    font-size: 1vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    color: #9f7866;
+
+    margin-right: 1vw;
+
+    text-transform: uppercase;
+}
+
+.darkThemeBox--button{
+    border-radius: 50%;
+
+    height: 5rem;
+    width: 5rem;
+
+    cursor: pointer;
+    background-color: rgb(36, 43, 82);
+
+    border: 5px solid #e6d1b6;
+
+    transition: background-color .4s, border;
+}
+
+.darkThemeButton--Active{
+    background-color: #e6d1b6;
+    border-color: rgb(36, 43, 82);
+}
+/* DARK THEME BUTTON */
+
+/* ----------------------------------- */
+
+
+
+
+
 /* REGROUPED ELEMENTS */
 
+.allLink{
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 1.5vw;
+}
 
 /* REGROUPED ELEMENTS */
 

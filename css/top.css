@@ -1,0 +1,148 @@
+/* TOP APP */
+
+/* POSITIONS ABSOLUTE & RELATIVE */
+.topApp{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topApp--LeftEm{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 4vw;
+    font-family: 'Babylonica', cursive;
+    font-weight: 300;
+    color: #9f7866;
+}
+
+.topApp--RightEm{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin-top: 5vh;
+    margin-right: 3vw;
+
+    font-size: 1.7vw;
+    color: #9f7866;
+}
+
+.TopAppLink{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* POSITIONS ABSOLUTE */
+
+/* TITLES */
+
+.topApp--AllTitle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6vw;
+    cursor: default;
+    transition: all .4s;
+}
+
+
+.topApp--AllTitle h1{
+    width: fit-content;
+    text-align: center;
+}
+
+.topApp--FirstTitle, .topApp--SecondTitle, .topApp--ThirdTitle{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.topApp--FirstLine{
+    display: flex;
+    justify-content: center;
+}
+
+.topApp--SecondLine{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.topApp--ThirdTitle{
+    margin-left: 2vw;
+}
+
+
+.topApp--TitleLetter{
+    color: var(--main-title-color);
+}
+
+/* class for animation on title */
+.brown{
+    transition: all 1s;
+    color : var(--main-transition-title-color);
+}
+
+.white{
+    transition: all 1s;
+    color: var(--main-title-color);
+}
+
+.opacity{
+    transition: all 1s;
+    opacity: 0;
+}
+/* class for animation on title */
+
+
+
+/* TITLES */
+
+
+/* H2 FRENCH DEVELOPPER */
+
+.topApp--h2{
+    text-transform: uppercase;
+
+    font-size: 1.2vw;
+}
+
+/* H2 FRENCH DEVELOPPER */
+
+/* VERSION OF SITE */
+
+.topApp--Pversion{
+    font-size: 2vw;
+    font-family: 'Cormorant Garamond';
+    font-weight: 800;
+}
+
+.appVersionSpan{
+    font-size: 90%;
+}
+
+/* VERSION OF SITE */
+
+
+
+
+
+/* TOP APP */
