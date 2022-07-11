@@ -8,9 +8,7 @@
 html,body{
     background-color: var(--main-background-color);
     color: var(--main-color);
-    overflow-y: hidden;
 
-    transition: background-color 0.4s, color 0.4s;
 }
 
 .allAppContainer{
@@ -22,7 +20,7 @@ html,body{
     --main-color : var(--dark-color);
     --main-title-color : var(--dark-title-basic-color);
     --main-transition-title-color: var(--dark-transition-title-color);
-
+    --selection-color : var(--selection-dark-color) ;
 }
 
 /* WINDOW */
@@ -35,6 +33,7 @@ body{
 
     --light-title-basic-color:#ffffff7d;
     --light-transition-title-color : #9f7866;
+    --selection-light-color : #ffffff7d;
 
 /* LIGHT THEME */
 
@@ -46,6 +45,7 @@ body{
 
     --dark-title-basic-color:#6b5043;
     --dark-transition-title-color : #dadada;
+    --selection-dark-color : #e6d1b6;
 /* DARK THEME */
 
 /* --- */
@@ -55,6 +55,7 @@ body{
     --main-color : var(--light-color);
     --main-title-color : var(--light-title-basic-color);
     --main-transition-title-color: var(--light-transition-title-color);
+    --selection-color : var(--selection-light-color) ;
 /* VARIABLES COLOR */
 }
 /* ----------------------------------- */
@@ -72,6 +73,7 @@ body{
     margin-right: 3vw;
 
     z-index: 100;
+    cursor: pointer;
 }
 
 .darkThemeBox--p{
@@ -85,18 +87,18 @@ body{
     text-transform: uppercase;
 }
 
-.darkThemeBox--button{
+.darkThemeBox--Color{
     border-radius: 50%;
 
     height: 5rem;
     width: 5rem;
 
-    cursor: pointer;
     background-color: rgb(36, 43, 82);
 
     border: 5px solid #e6d1b6;
 
     transition: background-color .4s, border;
+    cursor: pointer;
 }
 
 .darkThemeButton--Active{
@@ -119,7 +121,25 @@ body{
     font-weight: 300;
     text-transform: uppercase;
     color: var(--main-color);
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    position: relative;
+}
+
+.allLink .AllLink--Strong::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #e6d1b6;
+    transition: width 0.4s;
+}
+
+.allLink:hover .AllLink--Strong::after{
+    width: 100%;
+}
+
+.allLink .AllIconsLinks{
+    font-size: 80%;
 }
 
 /* REGROUPED ELEMENTS */
@@ -136,6 +156,6 @@ span::selection,
 h2::selection
 {
     background-color: none;
-    color: #ffffff7d;
+    color :var(--selection-color);
 }
 /* SELECTIONS (background and color) */

@@ -1,18 +1,41 @@
 // DARK THEME
 const myBody = document.querySelector('body');
 const DarkThemeBoxP = document.querySelector('.darkThemeBox--p')
-const darkThemeBoxButton = document.getElementById('darkThemeBox--button');
+const darkThemeBoxColor = document.getElementById('darkThemeBox--Color');
+const darkThemeBox = document.getElementById('darkThemeBox');
 
-darkThemeBoxButton.addEventListener('click', () => {
+window.addEventListener('load', () => {
 
-    darkThemeBoxButton.classList.toggle('darkThemeButton--Active')
-    myBody.classList.toggle('darkTheme')
+    let classOfMyBody = localStorage.getItem('theme');
+    myBody.className = classOfMyBody;
 
-    if (darkThemeBoxButton.classList.contains('darkThemeButton--Active')) {
+    let textOfMyThemeBox = localStorage.getItem('text')
+    DarkThemeBoxP.textContent = textOfMyThemeBox
+})
+
+darkThemeBox.addEventListener('click', () => {
+
+    myBody.style.transition = "background-color 0.4s, color 0.4s"
+    
+
+    if (myBody.className === "") {
+        myBody.className ='darkTheme';
         DarkThemeBoxP.textContent = 'Too dark ?'
+
+        localStorage.setItem('theme', myBody.className);
+        localStorage.setItem('text', 'Too dark ?');
     }else{
+        myBody.className = "";
         DarkThemeBoxP.textContent = 'Too shiny ?'
+
+        localStorage.setItem('theme', '');
+        localStorage.setItem('text', 'Too shiny ?');
     }
+
+    console.log(myBody);
+
+
+
 })
 // DARK THEME
 
