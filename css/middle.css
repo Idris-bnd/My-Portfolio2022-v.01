@@ -1,0 +1,101 @@
+/* MIDDLE APP */
+
+.middleApp{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* POSITIONS ABSOLUTE AND RELATIVES*/
+
+.middleApp{
+    position: relative;
+}
+
+.middleApp--topLink{
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2vh;
+}
+
+.middleApp--bottomLink{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}
+
+
+/* POSITIONS ABSOLUTE AND RELATIVES*/
+
+/* TITLES H2 & H3*/
+
+.middleApp--h2{
+    margin-top: 10vh;
+
+    font-family: 'Cormorant Garamond';
+    font-size: 3.5vw;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.middleApp--h3{
+    margin-top: 4vh;
+
+    font-family: 'Cormorant Garamond';
+    font-size: 2vw;
+    font-weight: 300;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* TITLES H2 & H3*/
+
+
+/* TEXTS*/
+
+.middleApp--texts{
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleApp--text:nth-child(1){
+    margin-top: 10vh;
+}
+
+.middleApp--text{
+    margin-top: 4vh;
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4vw;
+
+    width: 30%;
+}
+
+/* TEXTS*/
+
+
+
+
+/* MIDDLE APP */

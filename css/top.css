@@ -23,19 +23,19 @@
     color: #9f7866;
 }
 
-.topApp--RightEm{
+.pageNumber{
     position: absolute;
     top: 0;
     right: 0;
 
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-right: 3vw;
 
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     color: #9f7866;
 }
 
-.TopAppLink{
+.topApp--BottomLink{
     position: absolute;
     bottom: 0;
     margin-bottom: 2vh;
@@ -58,7 +58,7 @@
     font-family: 'Cormorant Garamond';
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 5.5vw;
     cursor: default;
     transition: all .4s;
 }
@@ -122,7 +122,8 @@
 .topApp--h2{
     text-transform: uppercase;
 
-    font-size: 1.2vw;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.4vw;
 }
 
 /* H2 FRENCH DEVELOPPER */
@@ -130,6 +131,8 @@
 /* VERSION OF SITE */
 
 .topApp--Pversion{
+    margin-top: 2vh;
+
     font-size: 2vw;
     font-family: 'Cormorant Garamond';
     font-weight: 800;
