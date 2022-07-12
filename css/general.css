@@ -151,11 +151,13 @@ body{
 /* SELECTIONS (background and color) */
 h1::selection,
 h2::selection,
+h3::selection,
 a::selection,
 p::selection,
 em::selection,
 strong::selection,
 span::selection,
+div::selection,
 h2::selection
 {
     background-color: none;
