@@ -309,7 +309,7 @@
 
     .topApp--LeftEm{
         margin-top: 3vh;
-        font-size: 12vw;
+        font-size: 10vw;
     }
 
     .pageNumber{
@@ -318,7 +318,7 @@
     }
 
     .topApp--BottomLink{
-        margin-bottom: 10vh;
+        margin-bottom: 8vh;
     }
     /* POSITIONS ABSOLUTE */
 

@@ -223,12 +223,12 @@
 
     /* POSITIONS RELATIVE */
     .middleApp--topLink{
-        margin-top: 10vh;
+        margin-top: 7vh;
     }
 
     .middleApp--bottomLink{
         margin: 0;
-        margin-bottom: 10vh;
+        margin-bottom: 8vh;
         right: auto;
     }
     .middleApp--bottomLink i{
