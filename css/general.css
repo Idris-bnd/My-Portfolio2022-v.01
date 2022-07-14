@@ -164,3 +164,19 @@ h2::selection
     color :var(--selection-color);
 }
 /* SELECTIONS (background and color) */
+
+
+
+
+/* MEDIA QUERIES FOR < 768 PX */
+@media screen and (max-width: 768px) {
+    .mainApp{
+        width: 100vw;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+/* MEDIA QUERIES FOR < 768 PX */

@@ -242,3 +242,109 @@
 }
 
 /* MEDIA QUERIES FOR < 1024 PX */
+
+
+
+
+/* MEDIA QUERIES FOR < 768 PX */
+@media screen and (max-width: 768px) {
+
+    /* POSITIONS ABSOLUTE */
+    .darkThemeBox{
+        margin-top: 5vh;
+        font-size: 4.5vw;
+    }
+
+    .allLink{
+        font-size: 5vw;
+    }
+
+    .topApp--LeftEm{
+        margin-top: 3vh;
+        font-size: 10vw;
+    }
+
+    .pageNumber{
+        margin-top: 10vh;
+        font-size: 4vw;
+    }
+
+    .topApp--BottomLink{
+        margin-bottom: 10vh;
+    }
+    /* POSITIONS ABSOLUTE */
+
+
+    /* TITLES */
+    .topApp--TitleLetter{
+        font-size: 17vw;
+    }
+
+    .topApp--h2{
+        font-size: 3vw;
+    }
+    /* TITLES */
+
+
+    .topApp--Pversion{
+        font-size: 5vw;
+    }
+}
+
+/* MEDIA QUERIES FOR < 768 PX */
+
+
+/* MEDIA QUERIES FOR < 425 PX */
+@media screen and (max-width: 425px) {
+
+    /* POSITIONS ABSOLUTE */
+    .darkThemeBox{
+        margin-top: 5vh;
+        font-size: 6vw;
+    }
+
+    .allLink{
+        font-size: 6.5vw;
+    }
+
+    .topApp--LeftEm{
+        margin-top: 3vh;
+        font-size: 12vw;
+    }
+
+    .pageNumber{
+        margin-top: 10vh;
+        font-size: 6vw;
+    }
+
+    .topApp--BottomLink{
+        margin-bottom: 10vh;
+    }
+    /* POSITIONS ABSOLUTE */
+
+
+    /* TITLES */
+
+    .topApp--FirstTitle .topApp--TitleLetter{
+        font-size: 20vw;
+    }
+
+    .topApp--TitleLetter{
+        font-size: 17vw;
+    }
+
+    .topApp--h2{
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    /* TITLES */
+
+
+    .topApp--Pversion{
+        margin-top: 5vh;
+        font-size: 7vw;
+    }
+}
+
+/* MEDIA QUERIES FOR < 425 PX */

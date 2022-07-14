@@ -22,7 +22,7 @@ const ProjectsArray = [
         '#leftSlider',
     ],
     [
-        'facebook ^^',
+        'facebook',
         '2022',
         '#mainHeader',
     ]

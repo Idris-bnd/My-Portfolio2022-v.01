@@ -172,3 +172,92 @@
 
 }
 /* MEDIA QUERIES FOR < 1024 PX */
+
+
+/* MEDIA QUERIES FOR < 768 PX */
+@media screen and (max-width: 768px) {
+
+    /* POSITIONS RELATIVE */
+    .middleApp--topLink{
+        margin-top: 10vh;
+    }
+
+    .middleApp--bottomLink{
+        margin: 0;
+        margin-bottom: 10vh;
+        right: auto;
+    }
+    .middleApp--bottomLink i{
+        display: none;
+    }
+    /* POSITIONS RELATIVE */
+
+    /* TITLES */
+    .middleApp--h2{
+        margin-top: 20vh;
+        font-size: 7vw;
+    }
+
+    .middleApp--h3{
+        font-size: 5vw;
+    }
+    /* TITLES */
+
+    /* TEXTS */
+    .middleApp--text:nth-child(1){
+        margin-top: 3.5vh;
+    }
+    .middleApp--text{
+        width: 65%;
+        font-size: 4vw;
+    }
+    /* TEXTS */
+
+
+}
+/* MEDIA QUERIES FOR < 768 PX */
+
+
+/* MEDIA QUERIES FOR < 425 PX */
+@media screen and (max-width: 425px) {
+
+    /* POSITIONS RELATIVE */
+    .middleApp--topLink{
+        margin-top: 10vh;
+    }
+
+    .middleApp--bottomLink{
+        margin: 0;
+        margin-bottom: 10vh;
+        right: auto;
+    }
+    .middleApp--bottomLink i{
+        display: none;
+    }
+    /* POSITIONS RELATIVE */
+
+    /* TITLES */
+    .middleApp--h2{
+        margin-top: 20vh;
+        font-size: 8vw;
+        letter-spacing: 0.05rem;
+    }
+
+    .middleApp--h3{
+        font-size: 7vw;
+    }
+    /* TITLES */
+
+    /* TEXTS */
+    .middleApp--text:nth-child(1){
+        margin-top: 4vh;
+    }
+    .middleApp--text{
+        width: 70%;
+        font-size: 4.5vw;
+    }
+    /* TEXTS */
+
+
+}
+/* MEDIA QUERIES FOR < 425 PX */

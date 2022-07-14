@@ -163,3 +163,113 @@
 
 }
 /* MEDIA QUERIES FOR < 1024 PX */
+
+
+
+/* MEDIA QUERIES FOR < 768 PX */
+@media screen and (max-width: 768px) {
+
+    /* POSITIONS RELATIVES */
+    .bottomApp--leftLink{
+        margin: 0;
+        margin-top: 7vh;
+        left: auto;
+        bottom: auto;
+        top: 0;
+    }
+    .bottomApp--leftLink i{
+        display: none;
+    }
+    /* POSITIONS RELATIVES */
+
+    /* TITLE */
+    .bottomApp--h2{
+        margin-top: 15vh;
+        font-size: 7vw;
+    }
+    /* TITLE */
+
+    .bottomApp--AllProjects{
+        width: 50%;
+    }
+
+    .projectTitle{
+        font-size: 5.5vw;
+    }
+    .projectDate{
+        font-size: 3vw;
+    }
+
+
+    .bottomApp--AllSocialNetworks{
+        margin: 0;
+        margin-bottom: 7vh;
+        right: auto;
+
+        width: 25%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottomApp--socialNetworks{
+        font-size: 6vw;
+    }
+
+
+}
+/* MEDIA QUERIES FOR < 768 PX */
+
+
+/* MEDIA QUERIES FOR < 425 PX */
+@media screen and (max-width: 425px) {
+
+    /* POSITIONS RELATIVES */
+    .bottomApp--leftLink{
+        margin: 0;
+        margin-top: 10vh;
+        left: auto;
+        bottom: auto;
+        top: 0;
+    }
+    .bottomApp--leftLink i{
+        display: none;
+    }
+    /* POSITIONS RELATIVES */
+
+    /* TITLE */
+    .bottomApp--h2{
+        margin-top: 17vh;
+        font-size: 8vw;
+    }
+    /* TITLE */
+
+    .bottomApp--AllProjects{
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .projectTitle{
+        font-size: 7vw;
+    }
+    .projectDate{
+        font-size: 4vw;
+    }
+
+
+    .bottomApp--AllSocialNetworks{
+        margin: 0;
+        margin-bottom: 10vh;
+        right: auto;
+
+        width: 40%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottomApp--socialNetworks{
+        font-size: 8vw;
+    }
+
+
+}
+/* MEDIA QUERIES FOR < 425 PX */
