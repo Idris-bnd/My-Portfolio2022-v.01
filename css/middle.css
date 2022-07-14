@@ -134,3 +134,41 @@
 
 }
 /* MEDIA QUERIES FOR < 1440 PX */
+
+
+
+/* MEDIA QUERIES FOR < 1024 PX */
+@media screen and (max-width: 1024px) {
+
+    /* POSITIONS RELATIVE */
+    .middleApp--topLink{
+        margin-top: 7vh;
+    }
+
+    .middleApp--bottomLink{
+        margin-bottom: 7vh;
+        margin-right: 5vw;
+    }
+    /* POSITIONS RELATIVE */
+
+    /* TITLES */
+    .middleApp--h2{
+        margin-top: 15vh;
+        font-size: 6vw;
+    }
+
+    .middleApp--h3{
+        font-size: 4.25vw;
+    }
+    /* TITLES */
+
+    /* TEXTS */
+    .middleApp--text{
+        width: 50%;
+        font-size: 3vw;
+    }
+    /* TEXTS */
+
+
+}
+/* MEDIA QUERIES FOR < 1024 PX */

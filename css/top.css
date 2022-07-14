@@ -194,3 +194,51 @@
 
 }
 /* MEDIA QUERIES FOR < 1440 PX */
+
+
+
+
+/* MEDIA QUERIES FOR < 1024 PX */
+@media screen and (max-width: 1024px) {
+
+        /* POSITIONS ABSOLUTE */
+        .darkThemeBox{
+            font-size: 3vw;
+        }
+    
+        .allLink{
+            font-size: 3vw;
+        }
+    
+    
+        .topApp--LeftEm{
+            font-size: 9vw;
+        }
+    
+        .pageNumber{
+            font-size: 3.5vw;
+        }
+    
+        .topApp--BottomLink{
+            margin-bottom: 7vh;
+        }
+        /* POSITIONS ABSOLUTE */
+    
+    
+        /* TITLES */
+        .topApp--TitleLetter{
+            font-size: 17vw;
+        }
+    
+        .topApp--h2{
+            font-size: 2.5vw;
+        }
+        /* TITLES */
+    
+    
+        .topApp--Pversion{
+            font-size: 4vw;
+        }
+}
+
+/* MEDIA QUERIES FOR < 1024 PX */
