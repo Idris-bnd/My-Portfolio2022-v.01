@@ -228,8 +228,8 @@
 
     .middleApp--bottomLink{
         margin: 0;
-        margin-bottom: 12vh;
         right: auto;
+        margin-bottom: 12vh;
     }
     .middleApp--bottomLink i{
         display: none;
@@ -238,7 +238,7 @@
 
     /* TITLES */
     .middleApp--h2{
-        margin-top: 18vh;
+        margin-top: 17.5vh;
         font-size: 8vw;
         letter-spacing: 0.05rem;
     }
