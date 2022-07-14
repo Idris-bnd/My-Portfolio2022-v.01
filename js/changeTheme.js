@@ -9,9 +9,13 @@ const theme = {
 
         let classOfMyBody = localStorage.getItem('theme');
         myBody.className = classOfMyBody;
-    
-        let textOfMyThemeBox = localStorage.getItem('text')
-        DarkThemeBoxP.textContent = textOfMyThemeBox
+        
+        if (localStorage.getItem('text')) {
+            let textOfMyThemeBox = localStorage.getItem('text')
+            DarkThemeBoxP.textContent = textOfMyThemeBox
+        }else{
+            DarkThemeBoxP.textContent = 'TOO SHINY ?'
+        }
 
 
         darkThemeBox.addEventListener('click', theme.changeTheme)
@@ -22,7 +26,7 @@ const theme = {
         myBody.style.transition = "background-color 0.4s, color 0.4s"
     
 
-        if (myBody.className === "") {
+        if (myBody.className === "" || myBody.className === 'null') {
             myBody.className ='darkTheme';
             DarkThemeBoxP.textContent = 'Too dark ?'
     
