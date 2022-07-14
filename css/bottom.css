@@ -87,5 +87,42 @@
     color: rgb(185, 158, 145);
 }
 
-
 /* BOTTOM APP */
+
+
+
+/* MEDIA QUERIES FOR < 1440 PX */
+@media screen and (max-width: 1440px) {
+
+    /* POSITIONS RELATIVES */
+    .bottomApp--leftLink{
+
+    }
+    /* POSITIONS RELATIVES */
+
+    /* TITLE */
+    .bottomApp--h2{
+        margin-top: 15vh;
+        font-size: 5vw;
+    }
+    /* TITLE */
+
+    .bottomApp--AllProjects{
+        width: 30%;
+    }
+
+    .projectTitle{
+        font-size: 3.5vw;
+    }
+    .projectDate{
+        font-size: 2vw;
+    }
+
+
+    .bottomApp--socialNetworks{
+        font-size: 3vw;
+    }
+
+
+}
+/* MEDIA QUERIES FOR < 1440 PX */

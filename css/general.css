@@ -83,10 +83,10 @@ body{
 
     z-index: 100;
     cursor: pointer;
+    font-size: 1vw;
 }
 
 .darkThemeBox--p{
-    font-size: 1vw;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800;
     color: #9f7866;
