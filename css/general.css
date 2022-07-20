@@ -22,6 +22,7 @@ html,body{
     --main-transition-title-color: var(--dark-transition-title-color);
     --selection-color : var(--selection-dark-color) ;
     --background-color-button : var(--dark-background-button);
+    --color-hover-project: ;
 }
 
 .mainApp{
@@ -43,6 +44,7 @@ body{
     --light-transition-title-color : #9f7866;
     --selection-light-color : #ffffff7d;
     --light-background-button : #36364e;
+    --light-hover-project: ;
 /* LIGHT THEME */
 
 /* --- */
@@ -55,6 +57,7 @@ body{
     --dark-transition-title-color : #dadada;
     --selection-dark-color : #e6d1b6;
     --dark-background-button : #e6d1b6;
+    --dark-hover-project: ;
 /* DARK THEME */
 
 /* --- */
@@ -66,6 +69,7 @@ body{
     --main-transition-title-color: var(--light-transition-title-color);
     --selection-color : var(--selection-light-color) ;
     --background-color-button : var(--light-background-button);
+    --color-hover-project: ;
 /* VARIABLES COLOR */
 }
 /* ----------------------------------- */

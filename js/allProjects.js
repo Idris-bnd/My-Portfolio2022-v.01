@@ -9,7 +9,7 @@ const ProjectsArray = [
     [
         'nasaaa',
         '2021',
-        '#leftSlider',
+        'https://idris-bnd.github.io/Nasa-xD/',
     ],
     [
         'ouioui',
@@ -41,6 +41,7 @@ const allProject = {
             const linkForProject = document.createElement('a');
             linkForProject.className = 'projectLink';
             linkForProject.href = singleProject[2];
+            linkForProject.target = "_blank"
 
             const h3ForProject = document.createElement('h3');
             h3ForProject.className = 'projectTitle';

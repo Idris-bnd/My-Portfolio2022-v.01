@@ -299,21 +299,25 @@
 
     /* POSITIONS ABSOLUTE */
     .darkThemeBox{
-        margin-top: 5vh;
-        font-size: 6vw;
+        margin-right: 3.5vw;
+        margin-top: 3vh;
+        font-size: 5vw;
     }
 
     .allLink{
-        font-size: 6.5vw;
+        font-size: 6vw;
     }
 
     .topApp--LeftEm{
-        margin-top: 3vh;
-        font-size: 10vw;
+        margin-left: 1vw;
+        margin-top: 2vh;
+
+        font-size: 8.5vw;
     }
 
     .pageNumber{
-        margin-top: 10vh;
+        margin-right: 3.5vw;
+        margin-top: 8vh;
         font-size: 6vw;
     }
 
@@ -326,11 +330,11 @@
     /* TITLES */
 
     .topApp--FirstTitle .topApp--TitleLetter{
-        font-size: 20vw;
+        font-size: 19vw;
     }
 
     .topApp--TitleLetter{
-        font-size: 17vw;
+        font-size: 16vw;
     }
 
     .topApp--h2{
