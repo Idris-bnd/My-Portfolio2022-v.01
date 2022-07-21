@@ -308,6 +308,14 @@
         font-size: 6vw;
     }
 
+    .allLink .AllLink--Strong::after{
+        width: 100%;
+    }
+
+    .allLink i{
+        display: none;
+    }
+
     .topApp--LeftEm{
         margin-left: 1vw;
         margin-top: 2vh;
@@ -322,7 +330,7 @@
     }
 
     .topApp--BottomLink{
-        margin-bottom: 12vh;
+        margin-bottom: 13vh;
     }
     /* POSITIONS ABSOLUTE */
 
